@@ -2,7 +2,7 @@
  
 int main(int argc, char** argv)
 {
-    int a,b,c;
+    int a=0;
     scanf("%d", &a);
     printf("%d", a/10%10);
     return 0;

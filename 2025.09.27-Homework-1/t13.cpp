@@ -2,8 +2,9 @@
  
 int main(int argc, char** argv)
 {
-    int a,b,c;
-    scanf("%d %d", &a, &b);
-    printf("%d %d", (b-b%a)/a+1,b%a);
+    int k=0;
+    int n=0;
+    scanf("%d %d", &k, &n);
+    printf("%d %d", (n-1)/k+1,(n-1)%k+1);
     return 0;
 }
