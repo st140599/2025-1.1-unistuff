@@ -2,7 +2,9 @@
 
 int main(int argc, char** argv)
 {
-	long long a=0,b=0,c=0;
+	long long a=0;
+    long long b=0;
+    long long c=0;
 	scanf("%lld", &a);
     a=(a+a%2);
     b=a*a;
