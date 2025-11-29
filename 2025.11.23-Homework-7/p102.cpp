@@ -15,6 +15,7 @@ int main(int argc, char **argv)
     {
         printf("no");
     }
+    return 0;
 }
 
 bool isdigit(char c)
